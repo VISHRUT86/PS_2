@@ -34,7 +34,7 @@ const Incomes = () => {
 
     try {
       setLoading(true);
-      const response = await fetch("https://finance-ps2.onrender.com/incomes/all", {
+      const response = await fetch("https://aman-ps2-backend.onrender.com/incomes/all", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://finance-ps2.onrender.com"; // Backend URL
+const API_BASE_URL = "https://aman-ps2-backend.onrender.com"; // Backend URL
 
 // Token ko localStorage se uthao
 const getAuthToken = () => {
@@ -30,7 +30,7 @@ export const getExpenses = async () => {
     });
     return response;
   } catch (error) {
-    console.error("Error fetching expenses data:", error);
+    console.log("Error fetching expenses data:", error);
     throw error;
   }
 };

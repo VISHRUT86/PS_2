@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://finance-ps2.onrender.com/api/bills"; // Update with your backend URL
+const API_URL = "https://aman-ps2-backend.onrender.com/api/bills"; // Update with your backend URL
 
 export const addBill = async (billData) => {
   const token = localStorage.getItem("token");
