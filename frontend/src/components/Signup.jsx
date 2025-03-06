@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Navigation ke liye
+import { useNavigate,Link } from "react-router-dom"; // Navigation ke liye
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Signup.css";
@@ -94,7 +94,7 @@ const Signup = () => {
                 />
                 <button onClick={handleSignup}>Sign Up</button>
                 <p className="login-link">
-                    Already have an account? <a href="/login">Log In</a>
+                    Already have an account? <Link to="/login">Log In</Link>
                 </p>
                 <img className="logimg" src="https://mint.intuit.com/mint-static-hp-resources/5757_NW_LP_Mint_HP3_D.png" alt="" />
             </div>

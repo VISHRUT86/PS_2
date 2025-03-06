@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,Link} from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AiOutlineCloseCircle } from "react-icons/ai"; 
@@ -99,7 +99,7 @@ const Login = () => {
                 />
                 <button onClick={handleLogin}>Log In</button>
                 <p className="signup-link">
-                    Don't have an account? <a href="/signup">Sign Up</a>
+                Don't have an account? <Link to="/signup">Sign Up</Link>
                 </p>
                 <img className="logimg" src="https://mint.intuit.com/mint-static-hp-resources/5757_NW_LP_Mint_HP2_D.png" alt="" />
             </div>
