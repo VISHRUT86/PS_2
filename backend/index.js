@@ -29,11 +29,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// ✅ CORS Setup
+✅ CORS Setup
 app.use(cors({
     origin: ['https://aman-ps2-frontend.onrender.com'],
     credentials: true,
 }));
+
+app.use(cors({
+    origin: '*', // 🔥 Change back when deploying
+    credentials: true,
+}));
+
 
 // ✅ Health Check Route
 app.get('/ping', (req, res) => {
