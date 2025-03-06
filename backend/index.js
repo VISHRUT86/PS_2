@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 
 // ✅ CORS Setup
 app.use(cors({
-    origin: ['https://finance-ps2-tracker.onrender.com'],
+    origin: ['https://aman-ps2-frontend.onrender.com'],
     credentials: true,
 }));
 
