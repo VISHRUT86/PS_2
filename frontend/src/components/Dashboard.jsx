@@ -83,7 +83,7 @@ const Dashboard = () => {
 
   return (
     <>
-      {/* <div className="dashboard-container">
+      <div className="dashboard-container">
         <div className="flex-container">
        
           <div className="sidebar">
@@ -116,31 +116,8 @@ const Dashboard = () => {
                 </nav>
               </div>
             </div>
-          </div> */}
-
-<div className="dashboard-container">
-        <button className="toggle-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
-          {sidebarOpen ? "Close Sidebar" : "Open Sidebar"}
-        </button>
-        <div className="flex-container">
-          {/* Sidebar */}
-          <div className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
-            <div className="dash">
-              <img className="simag" src="user.png" alt="User Avatar" />
-              <div className="user-name">Hello, <strong>{userName}</strong> 👋</div>
-              <div className="sidebar1">
-                <nav>
-                  <ul>
-                    <li><Link to="/dashboard">Dashboard</Link></li>
-                    <li><Link to="/incomes">Incomes</Link></li>
-                    <li><Link to="/expenses">Expenses</Link></li>
-                    <li><Link to="/transaction-history">Transaction History</Link></li>
-                    <li><Link to="/bills">Bills</Link></li>
-                  </ul>
-                </nav>
-              </div>
-          
           </div>
+
 
           {/* Main Content */}
           <div className="main-content">
@@ -263,7 +240,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      </div>
+   
  
     </>
   );
