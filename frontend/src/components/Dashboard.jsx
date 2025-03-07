@@ -26,7 +26,7 @@ const Dashboard = () => {
   const [incomes, setIncomes] = useState([]);
   const [totalIncome, setTotalIncome] = useState(0);
   const [totalExpenses, setTotalExpenses] = useState(0);
-  const [showGoalForm, setShowGoalForm] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const [userName, setUserName] = useState(""); 
   const navigate = useNavigate();
 
