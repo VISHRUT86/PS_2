@@ -139,7 +139,7 @@ const Dashboard = () => {
                   </ul>
                 </nav>
               </div>
-            </div>
+          
           </div>
 
           {/* Main Content */}
@@ -263,7 +263,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-
+      </div>
  
     </>
   );
