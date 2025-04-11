@@ -23,7 +23,7 @@ const GoalSettingForm = ({ onClose, onGoalSet = () => {} }) => { //  Default fun
 
         try {
             const response = await axios.post(
-                " http://localhost:4000/goals",
+                " https://aman-ps2-backend.onrender.com/goals",
                 { userId, annualGoal }, //  Include userId in payload
                 { withCredentials: true } //  Ensures cookies are sent if needed
             );
