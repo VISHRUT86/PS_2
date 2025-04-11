@@ -50,7 +50,7 @@ export const deleteExpense = async (id) => {
             throw new Error("No authentication token found");
         }
 
-        const response = await fetch(`https://aman-ps2-backend.onrender.com/expenses/delete/${id}`, {
+        const response = await fetch(` http://localhost:4000/expenses/delete/${id}`, {
             method: "DELETE",
             headers: {
                 "Authorization": `Bearer ${token}`,

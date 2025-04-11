@@ -45,7 +45,7 @@ export const updateIncome = async (id, incomeData) => {
 
 export const deleteIncome = async (id) => {
     const token = localStorage.getItem("token"); // ✅ Token ensure karo
-    const res = await axios.delete(`https://aman-ps2-backend.onrender.com/incomes/delete/${id}`, {
+    const res = await axios.delete(` http://localhost:4000/incomes/delete/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
     });
     return res.data;

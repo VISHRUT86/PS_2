@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://aman-ps2-backend.onrender.com/notifications";
+const API_URL = " http://localhost:4000/notifications";
 
 // 📌 ✅ Get all notifications
 export const getNotifications = async () => {

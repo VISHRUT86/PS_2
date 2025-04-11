@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 
 // ✅ CORS Setup
 app.use(cors({
-    origin: ['https://aman-ps2-frontend.onrender.com'],
+    origin: ['http://localhost:5174'],
     credentials: true,
 }));
 
