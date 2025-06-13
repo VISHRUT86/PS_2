@@ -70,10 +70,6 @@ Ensure you have the following installed:
 
 Feel free to contribute to this project by submitting issues or pull requests.
 
-## License
-
-This project is licensed under the AmanKumar.
-
 ## Application Link
 https://aman-ps2-frontend.onrender.com
 
