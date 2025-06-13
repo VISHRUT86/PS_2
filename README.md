@@ -27,8 +27,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/AmanGitkumar/Finance_PS2.git
-   cd Finance_PS2
+   git clone https://github.com/VISHRUT86/PS_2.git
+   cd PS_2
    ```
 
 2. Install dependencies:
@@ -77,9 +77,7 @@ This project is licensed under the AmanKumar.
 ## Application Link
 https://aman-ps2-frontend.onrender.com
 
-## Contact
 
-For any questions, reach out at 
 
-email : [aman.kumar.ece.23@itbhu.ac.in](mailto\:aman.kumar.ece.23@itbhu.ac.in)
+
 
